@@ -3,7 +3,7 @@ export const defaultConfiguration = {
     titleClosed: 'Click to chat!',
     titleOpen: 'Let\'s chat!',
     closedStyle: 'chat', // button or chat
-    closedChatAvatarUrl: '', // only used if closedStyle is set to 'chat'
+    closedChatAvatarUrl: 'https://webjet.be/wp-content/uploads/2018/11/rocket-1027579_1280-184x300.png', // only used if closedStyle is set to 'chat'
     cookieExpiration: 1, // in days. Once opened, closed chat title will be shown as button (when closedStyle is set to 'chat')
     introMessage: 'Hello! How can we help you?',
     autoResponse: 'Looking for the first available admin (It might take a minute)',
